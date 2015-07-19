@@ -1,9 +1,9 @@
 cask :v1 => 'flash' do
-  version '17.0.0.188'
-  sha256 'bf03faffb92f3941d9cf671bbbca59189830c6022a8596e0e6fd529b736cf2bc'
+  version '18.0.0.209'
+  sha256 '67b9d3ec4b29f62cc1b54324855da6c9498d798f01629dd336a84ee5702c91d0'
 
   # macromedia.com is the official download host per the vendor homepage
-  url "http://fpdownload.macromedia.com/get/flashplayer/current/licensing/mac/install_flash_player_#{version.to_i}_osx_pkg.dmg"
+  url "https://fpdownload.macromedia.com/get/flashplayer/current/licensing/mac/install_flash_player_#{version.to_i}_osx_pkg.dmg"
   name 'Adobe Flash Player'
   homepage 'https://www.adobe.com/products/flashplayer/distribution3.html'
   license :gratis

@@ -1,10 +1,10 @@
 cask :v1 => 'dbvisualizer' do
-  version '9.2.6'
-  sha256 'af311440c11c4addd84ec31bdf30b3f4fb9ac75bc0d47ed1b1bab37ca2caa82d'
+  version '9.2.8'
+  sha256 '40422edebbc672355f0e670a96c05903a0778b3daa666787051a3922fc34d4f6'
 
-  url "http://www.dbvis.com/product_download/dbvis-#{version}/media/dbvis_macos_#{version.gsub('.', '_')}_java7.dmg"
+  url "https://www.dbvis.com/product_download/dbvis-#{version}/media/dbvis_macos_#{version.gsub('.', '_')}_java7.dmg"
   name 'DbVisualizer'
-  homepage 'http://www.dbvis.com/'
+  homepage 'https://www.dbvis.com/'
   license :commercial
 
   preflight do

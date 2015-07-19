@@ -1,10 +1,10 @@
 cask :v1 => 'owncloud' do
-  version '1.8.1.2335'
-  sha256 'ff02fec2bf90a5f1e5d3138370758ecf2a29d901578f3b3c7f9e01ebf1218c82'
+  version '1.8.4.2531'
+  sha256 '4435bd4e1e6a07f8aadf47d33d42c08449cbe517433e21c7723c4815a97cee84'
 
   url "https://download.owncloud.com/desktop/stable/ownCloud-#{version}.pkg"
   name 'ownCloud'
-  homepage 'http://owncloud.com'
+  homepage 'https://owncloud.com/'
   license :gpl
 
   pkg "ownCloud-#{version}.pkg"

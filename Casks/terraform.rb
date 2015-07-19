@@ -1,11 +1,11 @@
 cask :v1 => 'terraform' do
-  version '0.5.1'
-  sha256 '5915d7668b07ea3770f1bc8126764f90723eade0245e0634af3b051ae2ceb7e5'
+  version '0.6.0'
+  sha256 'c519d3d18d5a2b0605bff6e0ca7bb677ea85c833f8e8dbb4af6a48e0ebf76cad'
 
   # bintray.com is the official download host per the vendor homepage
   url "https://dl.bintray.com/mitchellh/terraform/terraform_#{version}_darwin_amd64.zip"
   name 'Terraform'
-  homepage 'http://www.terraform.io/'
+  homepage 'https://www.terraform.io/'
   license :mpl
 
   binary 'terraform'

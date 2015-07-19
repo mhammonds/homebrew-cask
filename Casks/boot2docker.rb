@@ -1,6 +1,6 @@
 cask :v1 => 'boot2docker' do
-  version '1.6.2'
-  sha256 'c3cf9e5cd1695fd4965292201e67e6b8ef06516b925cf1db19174489c9e2daa5'
+  version '1.7.1'
+  sha256 '80658f99d0448793bfa7a35d8cdf9a368b4977f7a9977c9b375f6adab45cadaf'
 
   url "https://github.com/boot2docker/osx-installer/releases/download/v#{version}/Boot2Docker-#{version}.pkg"
   appcast 'https://github.com/boot2docker/osx-installer/releases.atom'

@@ -1,6 +1,6 @@
 cask :v1 => 'cdock' do
-  version '7.3'
-  sha256 '88aeadaa446241970bd96685ef9ddb53220b493f321ac0e579d0e7653ef6d984'
+  version '8.2'
+  sha256 '4695a982d1252c40f7e786a7bc850bae592d08d07d884b6938f2c8c5263fe69b'
 
   url "http://downloads.sourceforge.net/project/cdock/cDock/cDock_v#{version}.zip"
   name 'cDock'
@@ -15,4 +15,5 @@ cask :v1 => 'cdock' do
   EOS
 
   depends_on :cask => 'easysimbl'
+  depends_on :macos => '>= :mavericks'
 end

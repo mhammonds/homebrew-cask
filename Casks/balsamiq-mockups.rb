@@ -1,11 +1,11 @@
 cask :v1 => 'balsamiq-mockups' do
-  version '3.1.2'
-  sha256 '5da50865de51a8703a69dca12e98db0533bed85dd0a206c44532f16fe29071d6'
+  version '3.1.6'
+  sha256 '5f6fec35f0ab2fdaea766b5139cc9ea604782eeda6ac417b606e6d309c7b89b7'
 
   # amazonaws is the official download host per the vendor homepage
   url "https://s3.amazonaws.com/build_production/mockups-desktop/Balsamiq_Mockups_#{version}.dmg"
   name 'Balsamiq Mockups'
-  homepage 'http://balsamiq.com/'
+  homepage 'https://balsamiq.com/'
   license :commercial
 
   app "Balsamiq Mockups #{version.to_i}.app"
